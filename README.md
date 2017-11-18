@@ -1,5 +1,5 @@
 Steps to Run -
-1.Git Clone
+1.Git Clone\n
 2.npm install
 3.npm start
 
