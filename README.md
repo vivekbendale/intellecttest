@@ -1,6 +1,8 @@
 Steps to Run -
-1.Git Clone\n
+1.Git Clone
+
 2.npm install
+
 3.npm start
 
 Enpoint URL - http://localhost:3000/graphiql
@@ -8,7 +10,8 @@ Enpoint URL - http://localhost:3000/graphiql
 Quries to Test on Graphql - 
 
 
-1. Get User User Details
+1. Get User User Details -
+
 {
   userDetails(id:1) {
     fName
@@ -19,7 +22,8 @@ Quries to Test on Graphql -
   }
 }
 
-2.Get Specific ToDo Item
+2.Get Specific ToDo Item -
+
 {
   getToDos(toDoId:101) {
     id
@@ -28,7 +32,8 @@ Quries to Test on Graphql -
 }
 
 
-3.Get All active Users with related todos
+3.Get All active Users with related todos -
+
 {
   activeUsers {
     id
